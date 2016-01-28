@@ -26,7 +26,7 @@
 
 		public ArrayList<String> LookUpWords(String word, boolean first, boolean size){
 			Connection c = dbConnector();
-			System.out.println(size);
+
 ///////////////////////////////////////////////////////////////////////////////Sort word in alphabetical order and add to ArrayList			
 			char [] letters = word.toCharArray();
 			Arrays.sort(letters);
