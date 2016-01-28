@@ -1,0 +1,25 @@
+
+.root{
+	-fx-background-color: linear-gradient(rgb(255,10,10), rgb(127,40,40));
+	-fx-font-size: 20pt;
+}
+
+.button{
+	-fx-background-color: rgb(54,231,57);
+	-fx-background-radius: 100;
+}
+
+.button: hover{
+	-fx-background-color: rgb(127,240,129);
+}
+
+.button: pressed{
+	-fx-background-color: rgb(54,231,57);
+}
+
+.text-area{
+	-fx-font-style: italic;
+	-fx-font-weight: bold;
+	-fx-font-size: 30px;
+}
+
